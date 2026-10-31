@@ -5114,6 +5114,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 194.056 98.806)
+		(size 22.352 9.906)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e07ca10c-5378-4552-84bb-136675a02efc")
+		(property "Sheetname" "Battery Monitoring"
+			(at 194.056 98.0944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Monitoring.kicad_sch"
+			(at 194.056 109.2966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_v1.0"
+				(path "/2822dab8-353f-4caa-aeee-4463efcfd06e"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

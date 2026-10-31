@@ -617,6 +617,10 @@
     [
       "6a364681-5603-4933-8425-6fe78db71760",
       "Power Protection"
+    ],
+    [
+      "e07ca10c-5378-4552-84bb-136675a02efc",
+      "Battery Monitoring"
     ]
   ],
   "text_variables": {}
