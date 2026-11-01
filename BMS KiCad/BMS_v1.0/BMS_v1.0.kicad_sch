@@ -2274,6 +2274,16 @@
 		)
 		(uuid "1ee7f6f0-86e2-48be-9758-bb826c2a1292")
 	)
+	(text "find io pin for this \n"
+		(exclude_from_sim no)
+		(at 163.576 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "451cd43e-5802-48b1-9f78-3a3fd9adf82f")
+	)
 	(text "Pin 3 = OSC_IN\nPin 4 = OSC_OUT"
 		(exclude_from_sim no)
 		(at 70.866 92.71 0)
@@ -3248,6 +3258,28 @@
 			)
 		)
 	)
+	(global_label "DFETOFF"
+		(shape input)
+		(at 158.75 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0da0a250-672f-4bfe-a48e-5eb1075e3f27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7181 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 98.044 61.468 180)
@@ -3266,6 +3298,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_SHUT"
+		(shape input)
+		(at 158.75 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44a7c4c8-0b9f-4819-9e12-30227794ad6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.988 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3349,6 +3403,28 @@
 		(uuid "b16b6d0c-0919-4530-a673-7d1d5d5fa18c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.2162 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CFETOFF"
+		(shape input)
+		(at 158.75 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5871d6d-6c6b-4259-bc62-09af1b55bae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7181 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,8 +5149,8 @@
 		)
 	)
 	(sheet
-		(at 54.102 42.418)
-		(size 14.478 6.35)
+		(at 164.592 47.244)
+		(size 19.812 9.652)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5089,7 +5165,7 @@
 		)
 		(uuid "6a364681-5603-4933-8425-6fe78db71760")
 		(property "Sheetname" "Power Protection"
-			(at 54.102 41.7064 0)
+			(at 164.592 46.5324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5174,7 @@
 			)
 		)
 		(property "Sheetfile" "Power Protection.kicad_sch"
-			(at 54.102 49.3526 0)
+			(at 164.592 57.4806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5191,7 @@
 		)
 	)
 	(sheet
-		(at 194.056 98.806)
+		(at 200.406 46.99)
 		(size 22.352 9.906)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5131,7 +5207,7 @@
 		)
 		(uuid "e07ca10c-5378-4552-84bb-136675a02efc")
 		(property "Sheetname" "Battery Monitoring"
-			(at 194.056 98.0944 0)
+			(at 200.406 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5216,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery_Monitoring.kicad_sch"
-			(at 194.056 109.2966 0)
+			(at 200.406 57.4806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
