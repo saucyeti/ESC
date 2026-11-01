@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f5c81907-3847-447f-b3dc-5dcd92551fd0")
+	(uuid "a2d427b8-7a33-4abc-9bd3-a15e59e52ccd")
 	(paper "A4")
 	(title_block
 		(date "2026-10-31")
@@ -2174,6 +2174,16 @@
 		)
 		(uuid "85a28749-36ee-493c-9e0d-7bd6f18bf832")
 	)
+	(text "use recom dcdc or make our own, recom 3 pin 17-72V -> 12V might be cheaper\n"
+		(exclude_from_sim no)
+		(at 208.788 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c04087c4-dda2-461c-8176-5e14c3b41ad3")
+	)
 	(text "crowbar power protection circuit for LV"
 		(exclude_from_sim no)
 		(at 32.004 87.884 0)
@@ -3547,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.858 50.8 90)
 			(effects
 				(font
@@ -3616,7 +3626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.342 42.164 90)
 			(effects
 				(font
@@ -3751,7 +3761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.526 40.386 90)
 			(effects
 				(font
@@ -3818,7 +3828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.56 21.336 90)
 			(effects
 				(font
@@ -4022,7 +4032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.5012 110.49 0)
 			(effects
 				(font
@@ -4092,7 +4102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 101.346 40.386 0)
 			(effects
 				(font
@@ -4228,7 +4238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 108.966 80.01 0)
 			(effects
 				(font
@@ -4295,7 +4305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 84.074 106.68 90)
 			(effects
 				(font
@@ -4362,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 76.962 57.404 0)
 			(effects
 				(font
@@ -4600,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 76.962 52.578 0)
 			(effects
 				(font
@@ -4736,7 +4746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.518 41.91 90)
 			(effects
 				(font
@@ -4803,7 +4813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 76.962 37.084 90)
 			(effects
 				(font
@@ -4873,7 +4883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 154.178 40.132 0)
 			(effects
 				(font
@@ -4943,7 +4953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 74.93 32.766 0)
 			(effects
 				(font
@@ -5009,7 +5019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 77.216 85.09 0)
 			(effects
 				(font
@@ -5077,7 +5087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 52.07 78.232 90)
 			(effects
 				(font
@@ -5146,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.95 40.386 90)
 			(effects
 				(font
@@ -5216,7 +5226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 113.284 101.346 90)
 			(effects
 				(font
@@ -5285,7 +5295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 75.438 96.266 90)
 			(effects
 				(font
@@ -5420,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.704 21.336 90)
 			(effects
 				(font
@@ -5490,7 +5500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 115.062 91.948 0)
 			(effects
 				(font
@@ -5634,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.862 27.686 90)
 			(effects
 				(font
@@ -5898,7 +5908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.888 50.8 90)
 			(effects
 				(font
@@ -5968,7 +5978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 97.536 89.916 0)
 			(effects
 				(font
